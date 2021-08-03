@@ -82,4 +82,20 @@ public class SchreiberVonFahrradern {
 		}		
 	}
 
+
+	/**
+	 * @return the alleRaeder
+	 */
+	public List<Fahrrad> getAlleRaeder() {
+		return alleRaeder;
+	}
+
+
+	/**
+	 * @param alleRaeder the alleRaeder to set
+	 */
+	public void setAlleRaeder(List<Fahrrad> alleRaeder) {
+		this.alleRaeder = alleRaeder;
+	}
+
 }

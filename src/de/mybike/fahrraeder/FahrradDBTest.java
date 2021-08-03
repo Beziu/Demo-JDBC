@@ -10,6 +10,9 @@ public class FahrradDBTest {
 		
 		List<Fahrrad> alleBikes = leser.getAlleRaeder();
 		
+		/**
+		 * Lambda example
+		 */
 		alleBikes.forEach(r -> System.out.println(r));
 
 	}

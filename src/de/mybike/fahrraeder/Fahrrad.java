@@ -16,10 +16,10 @@ public class Fahrrad {
 	private LocalDate verfuegbarAb;
 
 	/**
-	 * @param farbe
-	 * @param typ
-	 * @param groesse
-	 * @param verfuegbarAb
+	 * @param farbe is color
+	 * @param typ is type
+	 * @param groesse is size
+	 * @param verfuegbarAb is availble from
 	 */
 	public Fahrrad(String farbe, String typ, int groesse, LocalDate verfuegbarAb) {
 		this.farbe = farbe;
